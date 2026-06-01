@@ -46,4 +46,4 @@ RUN BACKOFFS="10 20 30 60 90" && for i in 1 2 3 4 5; do HF_TOKEN=$HF_TOKEN comfy
 # COPY input/ /comfyui/input/
 
 # user-provided inputs override the auto-generated placeholders above.
-RUN wget --progress=dot:giga -O '/comfyui/input/3113_trimmed.png' "https://cool-anteater-319.convex.cloud/api/storage/f3ce73be-536d-47b7-9a0d-541191c050cc"
+RUN wget --progress=dot:giga -O '/comfyui/input/3113_trimmed.png' "https://cool-anteater-319.convex.cloud/api/storage/b47b19f4-5a38-45a6-9041-350a1e6aebab"
