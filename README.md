@@ -1,6 +1,19 @@
 # LTX23_V3_LTXDirector
 ComfyUI workflow Dockerized via [comfyui-wizard](https://comfy.getrunpod.io).
 Submission: https://comfy.getrunpod.io/dashboard/submissions/kd7f0p2kqqrgx9hgp9bsnvnxk187vjbx
+## Pull the prebuilt image
+
+We've already built and published this image on Docker Hub:
+
+```bash
+docker pull timpietruskyrunpod/comfyui-wizard:kd7f0p2kqqrgx9hgp9bsnvnxk187vjbx
+docker run --rm --gpus all -p 8188:8188 timpietruskyrunpod/comfyui-wizard:kd7f0p2kqqrgx9hgp9bsnvnxk187vjbx
+```
+
+Then open http://localhost:8188.
+
+---
+
 ## Build it yourself
 ```bash
 docker build -t my-comfy-workflow .
